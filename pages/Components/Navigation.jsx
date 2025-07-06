@@ -24,6 +24,10 @@ const Navigation = () => {
               <li className="ml-10 hover:border-b text-xl">Home</li>
             </Link>
 
+            <Link href="/About">
+              <li className="ml-10 hover:border-b text-xl">About</li>
+            </Link>
+
             <Link href="/Project">
               <li className="ml-10 hover:border-b text-xl">Project</li>
             </Link>
