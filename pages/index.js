@@ -1,5 +1,6 @@
 import Navigation from "./Components/Navigation";
 import Section from "./Components/Section";
+import Footer from './Components/Footer'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
 
       <div className="w-full flex lg:p-[8%] px-5 py-14 bg-zinc-900">
         <div>
+
           {/* About section */}
           <div className="mt-16 ">
             <p className="text-green-400 uppercase tracking-widest mb-3">
@@ -103,8 +105,10 @@ export default function Home() {
               </a>
             </div>
           </div>
+
         </div>
       </div>
+      <Footer />
     </>
   );
 }

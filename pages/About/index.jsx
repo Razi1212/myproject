@@ -1,6 +1,8 @@
 import React from 'react'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import Navigation from '../Components/Navigation';
+import Footer from '../Components/Footer'
+
 const Experience = () => {
     return (
         <div className='bg-zinc-900  w-screen '>
@@ -120,8 +122,7 @@ const Experience = () => {
 
             </div>
 
-
-
+            <Footer/>
         </div>
     )
 }

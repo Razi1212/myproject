@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from '../Components/Navigation';
 import Footer from '../Components/Footer'
 
-const Project = () => {
+const Blog = () => {
   return (
     <>
       <Navigation />
@@ -11,4 +11,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Blog

@@ -20,19 +20,19 @@ const Section = () => {
 
         <div className="py-10">
           <p className="text-gray-100 text-4xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-5xl">
-            Hey there, I’m
+            Hey there, I’m Raziuddin
           </p>
 
-          <p className="text-gray-100 text-4xl font-bold mt-2 tracking-tight md:text-5xl">
+          {/* <p className="text-gray-100 text-4xl font-bold mt-2 tracking-tight md:text-5xl">
             Raziuddin
-          </p>
+          </p> */}
 
           <p className="text-gray-100 text-4xl font-bold mt-2 md:text-5xl">
             Shah Mohd.
           </p>
 
           <p className="text-gray-400 text-lg mt-12 mb-3 leading-8 font-medium md:text-xl md:mt-6 md:mb-5">
-            A Software Developer With Specific Liking Towards Frontend and learning new technologies.
+            Turning ideas into responsive, modern web interfaces — I’m a Software Developer who loves the Frontend and thrives on learning what’s next.
           </p>
 
           <div className="grid gap-4 md:flex">
@@ -121,3 +121,5 @@ const Section = () => {
   );
 };
 export default Section;
+
+
