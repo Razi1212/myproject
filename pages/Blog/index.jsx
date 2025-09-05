@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from '../Components/Navigation';
+import Navigation from '../Components/Navigations';
 import Footer from '../Components/Footer'
 
 const Blog = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navigation from '../Components/Navigation';
+import Navigation from '../Components/Navigations';
 import Lottie from "lottie-react";
 import dancingRobot from "../assets/dancing-robot.json";
 import Footer from '../Components/Footer'

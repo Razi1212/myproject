@@ -1,11 +1,11 @@
 import React from 'react'
-import Navigation from '../Components/Navigation';
+import Navigations from '../Components/Navigations';
 import Footer from '../Components/Footer'
 
 const Project = () => {
   return (
     <>
-      <Navigation />
+      <Navigations />
       <div className='text-gray-400 lg:p-[8%] px-5 py-14 text-base bg-zinc-900  w-screen'>
 
         <div className="flex flex-col space-y-20">

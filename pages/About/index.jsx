@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import Navigation from '../Components/Navigation';
+import Navigation from '../Components/Navigations';
 import Footer from '../Components/Footer'
 
 const Experience = () => {

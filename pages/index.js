@@ -1,4 +1,4 @@
-import Navigation from "./Components/Navigation";
+import Navigation from "./Components/Navigations";
 import Section from "./Components/Section";
 import Footer from './Components/Footer'
 
