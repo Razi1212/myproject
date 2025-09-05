@@ -1,15 +1,15 @@
 'use client';
 import { Menu } from 'lucide-react';
 
-import Navigation from './ui/navigation';
-import { Button } from './ui/button';
-
+import Navigation from "@/components/ui/navigation";
+import { Button }from "@/components/ui/button";
 import {
   Navbar,
   NavbarLeft,
   NavbarRight,
-} from './ui/navbar';
-import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
+} from "@/components/ui/navbar";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+
 import LaunchUI from './logos/launch-ui';
 
 export default function Navigations() {
