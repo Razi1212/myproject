@@ -57,20 +57,20 @@
 
 import Navigation from "@/components/ui/navigation";
 import { Button } from "@/components/ui/button";
-import { Navbar as UINavbar, NavbarLeft, NavbarRight } from "@/components/ui/navbar";
+import { Navbar, NavbarLeft, NavbarRight } from "@/components/ui/navbar";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react"; // make sure you import Menu icon
-import LaunchUI from "@/components/ui/launch-ui"; // guessing you have this component
+import { Menu } from "lucide-react";
 
-export default function NavbarDefault() {
+export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 -mb-4 px-4 pb-4">
-      <div className="fade-bottom absolute left-0 h-24 w-full bg-background/15 backdrop-blur-lg"></div>
+      <div
+        className="fade-bottom absolute left-0 h-24 w-full bg-background/15 backdrop-blur-lg"
+      ></div>
       <div className="relative mx-auto max-w-container">
-        <UINavbar>
+        <NavbarComponent>
           <NavbarLeft>
             <a href="/" className="flex items-center gap-2 text-xl font-bold">
-              <LaunchUI />
               Launch UI
             </a>
             <Navigation />
@@ -107,7 +107,7 @@ export default function NavbarDefault() {
               </SheetContent>
             </Sheet>
           </NavbarRight>
-        </UINavbar>
+        </NavbarComponent>
       </div>
     </header>
   );
