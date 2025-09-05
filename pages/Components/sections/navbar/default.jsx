@@ -57,16 +57,14 @@
 
 import Navigation from "@/components/ui/navigation";
 import { Button } from "@/components/ui/button";
-import { Navbar, NavbarLeft, NavbarRight } from "@/components/ui/navbar";
+import { Navbar as NavbarComponent, NavbarLeft, NavbarRight } from "@/components/ui/navbar";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 -mb-4 px-4 pb-4">
-      <div
-        className="fade-bottom absolute left-0 h-24 w-full bg-background/15 backdrop-blur-lg"
-      ></div>
+      <div className="fade-bottom absolute left-0 h-24 w-full bg-background/15 backdrop-blur-lg"></div>
       <div className="relative mx-auto max-w-container">
         <NavbarComponent>
           <NavbarLeft>
