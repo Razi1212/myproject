@@ -12,17 +12,16 @@ const Experience = () => {
                         I'm always open to new projects, collaborations, or just a chat. Drop me an email or connect with me on LinkedIn or GitHub.
                     </p>
 
-                    {/* Email CTA */}
+
                     <a
-                        href="mailto:youremail@example.com"
+                        href="mailto:farooqui.razi8700@gmail.com"
                         className="inline-block text-sm text-blue-400 hover:underline mb-8"
                     >
                         Email Me
                     </a>
 
-                    {/* Bottom Footer Bar */}
+
                     <div className="w-full flex flex-col md:flex-row items-center justify-between border-t border-zinc-700 pt-6">
-                        {/* Left: Copyright */}
                         <p className="text-xs text-gray-400 mb-4 md:mb-0">
                             &copy; 2024 My Portfolio
                         </p>
@@ -30,7 +29,7 @@ const Experience = () => {
                         {/* Right: Social & Links */}
                         <div className="flex space-x-6">
                             <a
-                                href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+                                href="https://www.linkedin.com/in/raziuddin-shah-mohammed-69a0b8207/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-blue-400 transition-colors"
@@ -39,7 +38,7 @@ const Experience = () => {
                             </a>
 
                             <a
-                                href="https://github.com/YOUR-GITHUB-USERNAME"
+                                href="https://github.com/Razi1212"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-gray-400 transition-colors"
@@ -48,14 +47,14 @@ const Experience = () => {
                             </a>
 
                             <a
-                                href="#projects"
+                                href="./Project"
                                 className="hover:text-green-400 transition-colors text-sm"
                             >
                                 Projects
                             </a>
 
                             <a
-                                href="mailto:youremail@example.com"
+                                href="mailto:farooqui.razi8700@gmail.com"
                                 className="hover:text-red-400 transition-colors text-sm"
                             >
                                 Email

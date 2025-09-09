@@ -2,7 +2,7 @@
 import { Menu } from 'lucide-react';
 
 import Navigation from "@/components/ui/navigation";
-import { Button }from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import {
   Navbar,
   NavbarLeft,
@@ -66,12 +66,12 @@ export default function Navigations() {
                   >
                     Contact
                   </a>
-                  <a
+                  {/* <a
                     href="/Blog"
                     className="text-muted-foreground hover:text-foreground"
                   >
                     Blog
-                  </a>
+                  </a> */}
                 </nav>
               </SheetContent>
             </Sheet>

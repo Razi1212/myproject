@@ -46,13 +46,13 @@ export default function Navigation() {
         </NavigationMenuItem>
       </NavigationMenuList>
 
-      <NavigationMenuItem>
+      {/* <NavigationMenuItem>
         <Link href="/Blog" legacyBehavior passHref>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
             Blog
           </NavigationMenuLink>
         </Link>
-      </NavigationMenuItem>
+      </NavigationMenuItem> */}
 
     </NavigationMenu >
   );

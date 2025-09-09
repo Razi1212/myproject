@@ -69,7 +69,7 @@ export default function Navbar() {
         <NavbarComponent>
           <NavbarLeft>
             <a href="/" className="flex items-center gap-2 text-xl font-bold">
-              Launch UI
+              Razi
             </a>
             <Navigation />
           </NavbarLeft>
