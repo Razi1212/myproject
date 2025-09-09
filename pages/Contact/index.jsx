@@ -22,7 +22,7 @@ const Contact = () => {
     return (
         <>
             <Navigation />
-            <div className="bg-zinc-900 min-h-screen w-full lg:px-[8%] lg:py-10 p-5 flex flex-col lg:flex-row items-center gap-10">
+            <div className="bg-zinc-900 min-h-screen w-full lg:px-[8%] md:p-[5%] lg:py-10 p-5 flex flex-col lg:flex-row items-center gap-10">
                 <div className="flex-1 w-full bg-white/5 backdrop-blur-lg rounded-2xl p-11 shadow-2xl text-white">
                     <h2 className="text-3xl font-bold mb-6">
                         Let’s turn your ‘what if’ into ‘what’s next’ — reach out!

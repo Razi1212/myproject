@@ -8,7 +8,7 @@ const Experience = () => {
         <div className='bg-zinc-900  w-screen '>
             <Navigation />
 
-            <div className='text-gray-400 lg:p-[8%] px-5 py-14 text-base'>
+            <div className='text-gray-400 lg:p-[8%] px-5 py-14 text-base md:p-[5%]'>
                 <h6 className='text-3xl font-bold mb-5 text-white'>About me</h6>
 
                 <p className='mb-5'>
