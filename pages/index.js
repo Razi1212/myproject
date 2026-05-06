@@ -73,28 +73,38 @@ export default function Home() {
             <div className="border-b-4 border-blue-500 w-20 mb-7"></div>
 
             <p className="mb-8 leading-8 text-base text-gray-400">
-              Worked at CentraHub for ValueGold and Finance House, where I
-              designed and implemented workflows to import and process Excel
-              data — extracting gold purity values and mapping them into modules
-              using JavaScript. Developed parameter-driven SQL query reports for
-              customized, high-performance reporting. Implemented dynamic
-              JavaScript logic to fetch and handle data across multiple modules,
-              and enhanced UI responsiveness by enabling real-time grid
-              population on user actions.
+              Worked at Focus Softnet (CentraHub CRM/ERP product suite) for
+              ValueGold and Finance House, where I designed and implemented
+              workflows to import and process Excel data — extracting gold
+              purity values and mapping them into modules using JavaScript.
+              Developed parameter-driven SQL query reports for customized,
+              high-performance reporting. Implemented dynamic JavaScript logic
+              to fetch and handle data across multiple modules, and enhanced UI
+              responsiveness by enabling real-time grid population on user
+              actions.
             </p>
 
             <p className="mb-8 leading-8 text-base text-gray-400">
-              Built a dynamic job portal for Al-Sayed Staffing, allowing users
-              to browse available jobs, perform real-time searches with
-              debounced input for performance, and submit applications with
-              resume uploads and personal details. Developed an admin panel with
-              secure session-based authentication so authorized admins can
-              create and manage job listings, view detailed candidate
-              applications, preview resumes, and securely download or delete
-              them. Added efficient pagination for smooth navigation of large
-              job listings.
+              Designed and developed enterprise-grade BI dashboards using
+              React.js and TypeScript for Sales, Operations, Renewals, and
+              Project Management systems. Built a scalable component-based
+              frontend architecture that improved maintainability and reuse
+              across multiple enterprise modules. Integrated frontend
+              applications with .NET REST APIs to enable real-time data
+              rendering across CRM, ERP, and HCM systems. Created HLD and LLD
+              documentation defining system architecture, data flow, and UI
+              component structure. Improved application performance by ~30%
+              through code splitting, lazy loading, and React virtualization for
+              large dataset optimization. Developed role-based dashboards for
+              executives, teams, and operations with dynamic KPI visualization.
+              Implemented secure authentication systems including JWT and SSO
+              for enterprise applications. Contributed to CI/CD pipelines and
+              deployment workflows supporting production releases and go-live
+              cycles. Worked in an Agile (Scrum) environment with
+              cross-functional teams including backend, QA, and business
+              analysts while also supporting junior developers through code
+              reviews and debugging sessions.
             </p>
-
             <div className="mt-6">
               <a
                 href="/Project"
